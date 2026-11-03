@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: latini-marcatempo-test
+    runtime: static
+    buildCommand: echo "Static PWA - nessuna build necessaria"
+    staticPublishPath: .
